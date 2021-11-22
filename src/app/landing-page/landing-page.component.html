@@ -1,0 +1,46 @@
+<app-full-banner></app-full-banner>
+<app-nav-bar></app-nav-bar>
+
+<div class="container acai gradiente">
+    <div class="acai content">
+        <div class="delivery">
+            <h2 class="title">Trabalhe com delivery!</h2>
+            <h2>
+                Para alcançar mais clientes, otimizar a produção e vender mais, você precisa que seu fornecedor esteja
+                preparado para seu ritmo!
+                <br><br><br>
+                Um comerciante que trabalha com açaí nos aplicativos de delivery, decidiu trocar de fornecedor, do dia
+                pra noite!
+                <br><br>
+                Sabe porque?
+                <br><br>
+                Já era tarde da noite, um cliente tinha pedido açaí pelo app e estava esperando a entrega, mas o açaí
+                acabou quando chegou a vez de montar o pedido desse cliente.
+                <br><br>
+                O fornecedor da época estava fechado, então ele procurou outras opções na internet, conheceu a Anna
+                Gelattos, pediu seu açaí para montar e entregar ao cliente.
+                <br><br>
+                Alguns minutos depois, o cliente já estava com o pedido em mãos. E ele gostou tanto, e falou tão bem do
+                açaí, que o comerciante não teve dúvidas, passou a trabalhar apenas com os nossos produtos!
+            </h2>
+        </div>
+        
+        <div class="container">
+            <div class="column produtos">
+                <app-produto class="item first"></app-produto>
+                <app-produto class="item"></app-produto>
+                <app-produto class="item last"></app-produto>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="column pontos-fortes">
+                <app-ponto-forte class="item first" [src]="'assets/images/caminhaozin.svg'" [title]="'Entrega rápida'" [description]="'Estamos prontos para servir até as lojas mais movimentadas'"></app-ponto-forte>
+                <app-ponto-forte class="item" [src]="'assets/images/caminhaozin.svg'" [title]="'Fora do horário comercial'" [description]="'Acabou o estoque no meio da noite e tem delivery pra fazer? Sem problemas, conte conosco!'"></app-ponto-forte>
+                <app-ponto-forte class="item last" [src]="'assets/images/caminhaozin.svg'" [title]="'Qualidade premium'" [description]="'Nosso açaí premium conta com maior concentração da fruta, com uma fórmula exclusiva'"></app-ponto-forte>
+            </div>
+        </div>
+        <app-formulario-contato></app-formulario-contato>
+
+    </div>
+</div>

@@ -1,0 +1,44 @@
+app-full-banner{
+    position: relative;
+    z-index: 1;
+}
+app-nav-bar{
+    position: relative;
+    z-index: 2;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    .title{
+        text-align: center;
+        margin-top: 5vh;
+        margin-bottom: 6vh;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .item{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            &.first{
+                margin-top: 0;
+            }
+            &.last{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .produtos{
+        margin-top: 60px;
+    }
+    .pontos-fortes{
+        margin-top: 60px;
+        .item{
+            margin-top: 35px;
+            margin-bottom: 35px;
+        }
+    }
+}
