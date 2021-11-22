@@ -27,9 +27,9 @@
         
         <div class="container">
             <div class="column produtos">
-                <app-produto class="item first"></app-produto>
-                <app-produto class="item"></app-produto>
-                <app-produto class="item last"></app-produto>
+                <app-produto class="item first" [src]="'assets/images/caixa_fundovazio.png'"></app-produto>
+                <app-produto class="item" [src]="'assets/images/caixa_fundovazio.png'"></app-produto>
+                <app-produto class="item last" [src]="'assets/images/caixa_fundovazio.png'"></app-produto>
             </div>
         </div>
         
@@ -40,7 +40,6 @@
                 <app-ponto-forte class="item last" [src]="'assets/images/caminhaozin.svg'" [title]="'Qualidade premium'" [description]="'Nosso açaí premium conta com maior concentração da fruta, com uma fórmula exclusiva'"></app-ponto-forte>
             </div>
         </div>
-        <app-formulario-contato></app-formulario-contato>
-
     </div>
+    <app-formulario-contato class="formulario"></app-formulario-contato>
 </div>
