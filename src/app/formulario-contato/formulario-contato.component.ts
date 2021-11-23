@@ -11,5 +11,5 @@ export class FormularioContatoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  value = 'Clear me';
 }

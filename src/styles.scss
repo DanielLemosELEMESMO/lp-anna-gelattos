@@ -9,7 +9,6 @@ html, body { height: 100%; }
 body{
     margin: 0;
 }
-
 h1,h2,h3,h4,h5,h6,p{
     font-family: 'M PLUS Rounded 1c', sans-serif; margin: 0;
     secondary{
@@ -38,11 +37,23 @@ p{font-size: 15px;}
 
 .fundo-branco{
     background-color: #fcfcfc;
+    input{
+        color: #363636;
+        border-color: #78008C;
+    }
+    button{
+        background-color: #6c0080;
+        color: #FCFCFC;
+    }
+    color: #363636;
 }
 
 .content{
     margin-left: 13%;
     margin-right: 13%;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

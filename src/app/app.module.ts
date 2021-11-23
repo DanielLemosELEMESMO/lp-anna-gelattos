@@ -11,6 +11,9 @@ import { PontoForteComponent } from './ponto-forte/ponto-forte.component';
 import { ProdutoComponent } from './produto/produto.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FormularioContatoComponent } from './formulario-contato/formulario-contato.component';
+import { MatInputModule } from '@angular/material/input';
+import { CustomInputComponent } from './custom-input/custom-input.component';
+import { CustomButtonComponent } from './custom-button/custom-button.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +25,13 @@ import { FormularioContatoComponent } from './formulario-contato/formulario-cont
     ProdutoComponent,
     PageNotFoundComponent,
     FormularioContatoComponent,
+    CustomInputComponent,
+    CustomButtonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

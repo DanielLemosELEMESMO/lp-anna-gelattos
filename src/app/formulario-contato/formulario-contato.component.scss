@@ -1,6 +1,23 @@
 .this-root{
-    width: 90vw;
-    height: 25vh;
+    width: 350px;
+    height: 230px;
     background-color: #fcfcfc;
-    border-radius: 23px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    app-custom-input{
+        margin-bottom: 10px;
+        width: 85%;
+        height: 20%;
+        font-size: 120%;
+    }
+
+    app-custom-button{
+        width: 180px;
+        height: 60px;
+    }
 }
